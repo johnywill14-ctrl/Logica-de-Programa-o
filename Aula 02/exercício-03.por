@@ -1,8 +1,9 @@
-programa {
+prograprograma {
   funcao inicio() {
     cadeia nome
     real peso
     real altura
+    real imc
 
     escreva("Nome: ")
     leia(nome)
@@ -13,13 +14,10 @@ programa {
     escreva("altura (m): ")
     leia(altura)
 
-    escreva(nome , ", seu IMC é: ", peso / (altura * altura) )
+    imc = peso / (altura * altura)
+
+    escreva(nome , ", seu IMC é: ", imc)
      
-
-
-
-
-
 
   }
 }
