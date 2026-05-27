@@ -13,10 +13,10 @@ programa {
     idade = anoAtual - anoDenascimento
 
     se (idade >= 18){
-      escreva("Você podera tirar a habilitação ")
+      escreva("Você completa ", idade, " em 2025 e poderá tirar a habilitação ")
     }
     senao se(idade < 18){
-      escreva("Você não podera tirar a habilitação ")
+      escreva("Você completa ", idade, " em 2025 e não poderá tirar a habilitação ")
 
 
       
