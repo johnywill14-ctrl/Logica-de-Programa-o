@@ -5,13 +5,12 @@ programa {
     escreva("Digite um numero: ")
     leia(numero)
 
-    enquanto (numero == 0){
+    enquanto (numero != -1){
       
       se (numero > 0){
         positivos = positivos + 1
       }
        senao {
-        numero < 0
         negativos = negativos +1
       }
     }
