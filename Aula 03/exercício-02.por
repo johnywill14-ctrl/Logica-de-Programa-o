@@ -6,17 +6,17 @@ programa {
     leia(idade)
 
    se (idade >= 65){
-    escreva("vc é um idoso.")
+    escreva("você é um idoso.")
    }
    senao se(idade >= 18){
-    escreva("vc é um adulto.")
+    escreva("você é um adulto.")
    }
 
    senao se(idade >= 13){
-    escreva("vc é um adolescente.")
+    escreva("você é um adolescente.")
    }
    senao{
-    escreva("vc é uma criança.")
+    escreva("você é uma criança.")
    }
 
     
